@@ -22,7 +22,7 @@ App/portal for tracking/finding of missing persons/children by use of Aadhaar en
 # Overview of the Project
 A deep learning model that will assist the passive search process by providing an Interface to input details of a person to scan/search for in the CIDR database. It also provides on demand, regulated access of information only to authorized personnel/ department
 
-# Use Cases
+# Our Approach
 ![image](https://user-images.githubusercontent.com/96635875/186846213-50c5c9e3-1067-40cd-8c3a-d14a4db41279.png)
 
 # Technology used
