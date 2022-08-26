@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Login </title>
+        <link href="https://fonts.googleapis.com/css?family=Poppins|Pompiere|Amiko|Rambla|Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href= "{{ url_for('static', filename='./login1.css')}}">
+        <!-- {{ url_for('static', filename='./login.css') }}           -->
+    </head>
+   
+    <body>
+      <div class="login-box">
+        <h2>Login</h2>
+        <form action="" method="post">
+              <div class="msg">{{ msg }}</div>
+              <br></br><br></br>
+          <div class="user-box">
+            <input id="username" name="username" type="text" class="textbox">
+            <label>Username</label>
+          </div>
+          <div class="user-box">
+            <input id="password" name="password" type="password" class="textbox">
+            <label for="">Password</label>
+          </div>
+          <a href="">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <button type="submit" class="btn" value="Sign In"> Sign In</button>
+          </a>
+        </form>
+      </div>
+    </body>
+    
+    
+</html>

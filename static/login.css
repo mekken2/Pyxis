@@ -1,0 +1,156 @@
+html{
+    height: 100%;
+
+}
+body{
+    background-color: rgb(185, 184, 184);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color:black;
+}
+
+.fa-solid {
+    padding-right: 0rem;
+    color: white;
+}
+
+.nav-heading {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    font-family: Montserrat;
+    transition: 0.3s;
+    color: rgb(255, 255, 255);
+}
+
+.nav-heading:hover {
+    color: #8d8989;
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    padding-top: 1rem;
+    padding-right: 5rem;
+    font-family: Montserrat;
+    color: white;
+}
+
+.nav-content {
+    padding: 1rem;
+    transition: 0.3s;
+}
+
+.nav-content:hover {
+    color: #393737;
+    cursor: pointer;
+}
+
+.header{
+    padding: 5px 120px;
+    width: 150px;
+    height: 70px;
+    background-color: #393737; 
+}
+
+.border{
+    padding: 80px 50px;
+    width: 400px;
+    height: 450px;
+    /* border: 1px solid #095277; */
+    background-color: none;
+    /* backdrop-filter: blur(1rem); */
+}
+/* #logo{
+   max-width: 150px;
+   max-height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin-top: -6px;
+} */
+.btn {
+    padding: 10px 40px;
+    background-color: #393737; 
+    color: #FFFFFF;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.textbox{
+    padding: 10px 40px;
+    background-color: #f6f6f6; 
+    color: #100f0f;
+    border-radius: 10px;
+}
+      
+::placeholder {
+    color: #0a0a0a;
+    opacity: 1;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.word{
+    color: #FFFFFF;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.bottom{
+    color: #000000;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+ /* change for hover and if any child elements are in focus */
+ .card:hover,
+ .card:focus-within {
+   /* background-color: #e9ecef; Using the same color as selected nav items */
+   box-shadow: 0 0 1rem rgba(0,0,0,0.15);
+ }
+ 
+ /* Make it look clickable... */
+ .card-clickable {
+   border-radius: 7px;
+   border-width: 2px;
+ }
+ 
+ 
+ /* Presentational styles */
+ 
+ body {
+   background: rgb(185, 184, 184);
+   padding: 2rem;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ }
+ 
+ .card {
+   margin-left: auto;
+   margin-right: auto;
+ }
+ .grid {
+   display: grid;
+   grid-gap: 4rem 1rem;
+   max-width: 1200px;
+   margin: auto;
+ }
+ 
+ @media all and (min-width: 450px) {
+   .grid {
+     grid-template-columns: 1fr 1fr;
+   }
+ }
+ @media all and (min-width: 600px) {
+   .grid {
+     grid-template-columns: 1fr 1fr 1fr;
+   }
+ }
