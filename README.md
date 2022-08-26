@@ -46,6 +46,7 @@ A deep learning model that will assist the passive search process by providing a
 * MTCNN
 * Resnet
 * face_recognition library
+* YOLO
 
 
 
