@@ -5,6 +5,9 @@ Public Repo for Smart India Hackathon SIH
 # Reha
 Project presented by Team: Pyxis
 
+# Note:
+Before running app.py please download: https://drive.google.com/file/d/1II_G13Xld92jI0jxhe-HoJrzC4wQmVSA/view?usp=sharing
+
 # Our Team
 
 |Member                      |     
@@ -55,6 +58,10 @@ A deep learning model that will assist the passive search process by providing a
 * face_recognition library
 * YOLO
 
+# Website
+![image](https://user-images.githubusercontent.com/96635875/186897563-6aea856b-943e-4a36-b9ac-e719ed6fca09.png)
+![image](https://user-images.githubusercontent.com/96635875/186897620-b94b4607-9684-424b-897f-e6bc8a193fe7.png)
+![image](https://user-images.githubusercontent.com/96635875/186897745-b419f162-199f-414b-b5cb-9981e18ae2ca.png)
 
 
 
