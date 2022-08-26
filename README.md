@@ -27,4 +27,33 @@ A deep learning model that will assist the passive search process by providing a
 
 # Technology used
 
-* details
+#### Frontend ####
+* HTML
+* CSS
+* Javascript
+* Bootstrap
+
+#### Backend  ####
+* Flask
+* Mysql
+* Pytorch
+* Pandas
+
+#### Biometrics   ####
+* SIFT Algorithm
+
+#### CCTV    ####
+* MTCNN
+* Resnet
+* face_recognition library
+
+
+
+# Operation
+
+* An interface which allows you to input details ( pic,name etc) of an individual, it then runs a search through the cidr database, to obtain complete details of the person. 
+* To provide a regulated, on demand access to each authority or personnel in need of the information, this system is to prevent mishandling of sensitive data
+* Linking all the CCTV cameras of the locality where the person got missing, running Face recognition on the CCTV footage to  identify a person
+* Some traffickers use adv to attract victims or messages to communicate with them. Any such textual piece of lead found is stored in a real time database and a mechanism to find links between similar ads, messages etc is instilled 
+
+
