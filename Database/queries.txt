@@ -1,0 +1,21 @@
+CREATE VIEW female AS SELECT * FROM cidr WHERE gender= 'f';
+ CREATE VIEW female_one AS SELECT * FROM cidr WHERE gender= 'f' AND (age BETWEEN 0 AND 6);
+ CREATE VIEW female_two AS SELECT * FROM cidr WHERE gender= 'f' AND (age BETWEEN 6 AND 14);
+ CREATE VIEW female_three AS SELECT * FROM cidr WHERE gender= 'f' AND (age BETWEEN 15 AND 17);
+ CREATE VIEW female_four AS SELECT * FROM cidr WHERE gender= 'f' AND (age BETWEEN 18 AND 20);
+ CREATE VIEW female_five AS SELECT * FROM cidr WHERE gender= 'f' AND (age BETWEEN 20 AND 30);
+ CREATE VIEW female_six AS SELECT * FROM cidr WHERE gender= 'f' AND (age>30);
+
+
+CREATE VIEW male_ AS SELECT * FROM cidr WHERE gender= 'm' ;
+CREATE VIEW male_one AS SELECT * FROM cidr WHERE gender= 'm' AND (age BETWEEN 0 AND 6);
+CREATE VIEW male_two AS SELECT * FROM cidr WHERE gender= 'm' AND (age BETWEEN 6 AND 12);
+CREATE VIEW male_three AS SELECT * FROM cidr WHERE gender= 'm' AND (age BETWEEN 13 AND 20);
+CREATE VIEW male_four AS SELECT * FROM cidr WHERE gender= 'm' AND (age BETWEEN 20 AND 30);
+CREATE VIEW male_five AS SELECT * FROM cidr WHERE gender= 'm' AND (age >30);
+
+CREATE VIEW Bihar AS SELECT * FROM cidr WHERE State='Bihar';
+CREATE VIEW TamilNadu AS SELECT * FROM cidr WHERE State='Tamil Nadu';
+CREATE VIEW Karnataka AS SELECT * FROM cidr WHERE State='Karnataka';
+CREATE VIEW Chhattisgarh AS SELECT * FROM cidr WHERE State='Chhattisgarh';
+CREATE VIEW Uttarakhand AS SELECT * FROM cidr WHERE State='Uttarakhand';
